@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import * as Chartist from 'chartist';
+import { Router } from 'express';
 
 @Component({
   selector: 'app-dashboard',
@@ -146,5 +147,6 @@ export class DashboardComponent implements OnInit {
       //start animation for the Emails Subscription Chart
       this.startAnimationForBarChart(websiteViewsChart);
   }
+
 
 }
